@@ -1,0 +1,56 @@
+﻿<Properties StartupConfiguration="{98D81E2C-901F-4790-A00E-CA0AC63E431F}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/BooksController.cs">
+    <Files>
+      <File FileName="Startup.cs" Line="52" Column="28" />
+      <File FileName="Program.cs" />
+      <File FileName="Repositories/IBooksRepository.cs" />
+      <File FileName="Dtos/BookDto.cs" />
+      <File FileName="Repositories/Extensions.cs" />
+      <File FileName="Dtos/CreateBookDto.cs" />
+      <File FileName="Repositories/MongoDbBooksRepository.cs" />
+      <File FileName="MongoDbSettings/MongoDbSettings.cs" />
+      <File FileName="Properties/launchSettings.json" />
+      <File FileName="Controllers/BooksController.cs" Line="1" Column="28" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MongoBookApis" expanded="True">
+            <Node name="MongoBookApis" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="BooksController.cs" selected="True" />
+              </Node>
+              <Node name="Dtos" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="MongoDbSettings" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Repositories" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>&lt;IOptions&lt;BookstoreDatabaseSetting().Valueåsp.GetRequiredService&lt;IOptions&lt;BookstoreDatabaseSettings&gt;&gt;().Value</Value>
+          <Value>BookstoreDatabaseSetting().value</Value>
+          <Value>database</Value>
+          <Value>client.ListDatabaseNames();</Value>
+          <Value>client.ListDatabases();</Value>
+          <Value>maxNumPage == ""</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint enabled="false" file="/Users/hanieharabzadeh/Desktop/Developments/C#/Mongo/BookstoreAPIs/MongoBookApis/Repositories/MongoDbBooksRepository.cs" relfile="Repositories/MongoDbBooksRepository.cs" line="24" column="1" />
+      <Breakpoint enabled="false" file="/Users/hanieharabzadeh/Desktop/Developments/C#/Mongo/BookstoreAPIs/MongoBookApis/Startup.cs" relfile="Startup.cs" line="42" column="17" />
+      <Breakpoint enabled="false" file="/Users/hanieharabzadeh/Desktop/Developments/C#/Mongo/BookstoreAPIs/MongoBookApis/Startup.cs" relfile="Startup.cs" line="38" column="13" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.MongoBookApis PreferredExecutionTarget="/Applications/Safari.app" />
+</Properties>
