@@ -11,16 +11,27 @@ Follow the below steps to run the application and use the APIs through Postman
 Here is some examples of APIs:
 
 URL: https://localhost:5001/books
+
 POST
+
 Body:
+
 {
+
     "Title" : "The stranger version 2",
+    
     "Authors" : "Matthew Ward",
+    
     "AverageRating" : "4.3",
+    
     "NumPage" : "85",
+    
     "RatingCount" : "450000",
+    
     "TextReviewCount" : "32000",
+    
     "PublicationDate" : "01-05-2021",
+    
     "Publisher" : "Local book store"
 }
 
