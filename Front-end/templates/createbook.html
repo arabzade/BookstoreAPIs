@@ -1,0 +1,27 @@
+{ % extends "base.html" % }
+{% block title %} Create book{%endblock%}
+{% block content %} 
+<form action="/createbook/" method="POST">
+    <p>title:</p>
+    <p><input type="text" name="Title"/></p>
+    <p>authors:</p>
+    <p><input type="text" name="Authors"/></p>
+    <p>averageRating:</p>
+    <p><input type="text" name="AverageRating"/></p>
+    <p>numPage:</p>
+    <p><input type="text" name="NumPage"/></p>
+    <p>ratingCount:</p>
+    <p><input type="text" name="RatingCount"/></p>
+    <p>textReviewCount:</p>
+    <p><input type="text" name="TextReviewCount"/></p>
+    <p>publicationDate:</p>
+    <p><input type="text" name="PublicationDate"/></p>
+    <p>publisher:</p>
+    <p><input type="text" name="Publisher"/></p>
+    <form action="/" method="POST">
+    <p><input type="submit" value="submit" name="submit_book"/></p>
+    </form>
+    </form>
+{%endblock%}
+
+

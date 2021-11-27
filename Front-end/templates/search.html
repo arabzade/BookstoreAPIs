@@ -1,0 +1,32 @@
+{ % extends "base.html" % }
+{% block title %} search book{%endblock%}
+{% block content %} 
+    <form action="search" method="GET">
+        <p>title:</p>
+        <p><input type="text" name="Title"/></p>
+        <p>authors:</p>
+        <p><input type="text" name="Authors"/></p>
+        <p>minNumPage:</p>
+        <p><input type="text" name="MinNumPage"/></p>
+        <p>maxNumPage:</p>
+        <p><input type="text" name="MaxNumPage"/></p>
+        <p><form action="/" method="GET"><input type="submit" value="search" name="search"/></form></p>
+
+    </form>
+    <table>
+        <tr>
+            {% for header in headings %}
+            <th>{{header}}</th>
+            {% endfor %}
+            <th>{{header}}</th>
+        </tr>
+        {% for row in data %}
+        <tr>
+        {% for key in row %}
+        <td>{{row[key]}}</td>
+        {% endfor %}
+        </tr>
+        {% endfor %}
+        <tr>
+    </table>
+{%endblock%}
